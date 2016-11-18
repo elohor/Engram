@@ -872,3 +872,13 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #fed136;
 }
+
+.landing-page-overlay{
+  background: hsla(244, 90%, 54%, 0.28);
+    position: absolute;
+    width: 100%;
+    left: 0;
+    opacity: 0.6;
+    height: 100%;
+    z-index: 1;
+}
