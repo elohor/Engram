@@ -1,8 +1,8 @@
 {
   "name": "engram",
-  "title": "Agency",
-  "version": "3.3.7+1",
-  "author": "Start Bootstrap",
+  "title": "Engram",
+  "version": "0.0.1",
+  "author": "Elohor",
   "devDependencies": {
     "bootstrap": "^3.3.7",
     "browser-sync": "^2.13.0",
