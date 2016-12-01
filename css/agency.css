@@ -22,7 +22,7 @@ body {
 }
 
 .text-primary {
-  color: #fed136;
+  color: #ff8f00;
 }
 
 p {
@@ -43,14 +43,14 @@ a.active {
 }
 
 a {
-  color: #fed136;
+  color: #ff8f00;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #fec503;
+  color: #ff8f00;
 }
 
 h1,
@@ -78,8 +78,8 @@ h6 {
 
 .btn-primary {
   color: white;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #ff8f00;
+  border-color: #ff8f00;
   font-family: 'Roboto slab', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -91,8 +91,8 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #fec503;
-  border-color: #f6bf01;
+  background-color: #ff8f00;
+  border-color: #ff8f00;
 }
 
 .btn-primary:active,
@@ -116,19 +116,19 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #ff8f00;
+  border-color: #ff8f00;
 }
 
 .btn-primary .badge {
-  color: #fed136;
+  color: #ff8f00;
   background-color: white;
 }
 
 .btn-xl {
   color: white;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #ff8f00;
+  border-color: #ff8f00;
   font-family: 'Roboto slab', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -143,8 +143,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: white;
-  background-color: #fec503;
-  border-color: #f6bf01;
+  background-color: #ff8f00;
+  border-color: #ff8f00;
 }
 
 .btn-xl:active,
@@ -168,12 +168,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #ff8f00;
+  border-color: #ff8f00;
 }
 
 .btn-xl .badge {
-  color: #fed136;
+  color: #ff8f00;
   background-color: white;
 }
 
@@ -194,7 +194,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: #fec503;
+  color: #ff8f00;
 }
 
 .navbar-custom .navbar-collapse {
@@ -202,8 +202,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-custom .navbar-toggle {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #ff8f00;
+  border-color: #ff8f00;
   font-family: 'Roboto slab', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: white;
@@ -212,7 +212,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #fed136;
+  background-color: #ff8f00;
 }
 
 .navbar-custom .nav li a {
@@ -225,20 +225,20 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #fed136;
+  color: #ff8f00;
   outline: none;
 }
 
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
-  background-color: #fed136;
+  background-color: #ff8f00;
 }
 
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: white;
-  background-color: #fec503;
+  background-color: #ff8f00;
 }
 
 @media (min-width: 768px) {
@@ -358,6 +358,11 @@ section h3.section-subheading {
   text-transform: none;
 }
 
+#pj{
+  height:250px;
+  width:400px;
+}
+
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
@@ -450,6 +455,10 @@ section h3.section-subheading {
   background-color: #f1f1f1;
   left: 40px;
   margin-left: -1.5px;
+}
+.col-md-2 img {
+  width:100px;
+  height:100px;
 }
 
 .timeline > li {
@@ -626,10 +635,20 @@ section h3.section-subheading {
   text-align: center;
   margin-bottom: 50px;
 }
-
+.col-sm-4 img {
+  width: 250px;
+  height:250px;
+  border: 7px solid white;
+}
+.col-sm-3 img {
+  width: 200px;
+  height:200px;
+ 
+}
 .team-member img {
   margin: 0 auto;
-  border: 7px solid white;
+  
+
 }
 
 .team-member h4 {
@@ -711,6 +730,13 @@ section#contact:-ms-input-placeholder {
 
 section#contact .text-danger {
   color: #e74c3c;
+}
+
+
+
+#logoo{
+  height: 150px;
+  width: 200px;
 }
 
 footer {
@@ -881,4 +907,21 @@ body {
     opacity: 0.6;
     height: 100%;
     z-index: 1;
+}
+
+#slideshow { 
+    margin: 50px auto;
+    position: relative; 
+    width: 1050px; 
+    height: 500px; 
+    padding: 10px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
 }
